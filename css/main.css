@@ -4,6 +4,10 @@ html {
   font-style: normal;
 }
 
+.grid {
+  margin: 1em;
+}
+
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
@@ -52,22 +56,36 @@ html {
 }
 
 h1 {
-  font-family: garamond-premier-pro, serif;
+  font-family: adelle-sans, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
 h2 {
-  font-family: baskerville-urw, serif;
+  font-family: adelle-sans, sans-serif;
   font-weight: 700;
   font-style: normal;
   column-span: all;
 }
 
+.img-flex {
+  display: block;
+  width: 100%;
+  max-height: 500px;
+  max-width: 400px;
+}
+.banban {
+  display: block;
+  width: 100%;
+}
+
 .card {
-    background-color: #ede3db;
-    border: 2px solid #623b0c;
-    border-radius: 8px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  background-color: #efefef;
+  border: 2px solid #623b0c;
+  border-radius: 8px;
 }
 
 .text-white {
@@ -88,7 +106,7 @@ span {
   padding-left: 1.5em;
   padding-right: 1.5em;
   width: 100%;
-  max-width: 50em;
+  max-width: 70em;
   position: absolute;
   left: 50%;
   bottom: 1.5rem;
