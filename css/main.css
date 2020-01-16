@@ -1,5 +1,7 @@
 html {
-
+  font-family: baskerville-urw, serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Style the navigation menu */
@@ -17,7 +19,7 @@ html {
 /* Style navigation menu links */
 .topnav a {
   color: white;
-  padding: 14px 16px;
+  padding: 14px 16px 0px;
   text-decoration: none;
   font-size: 17px;
   display: block;
@@ -40,6 +42,56 @@ html {
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: #4CAF50;
+  background-color: #71cdde;
   color: white;
+  font-size: 10em;
+}
+
+.icon {
+  top: auto;
+}
+
+h1 {
+  font-family: garamond-premier-pro, serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h2 {
+  font-family: baskerville-urw, serif;
+  font-weight: 700;
+  font-style: normal;
+  column-span: all;
+}
+
+
+.card {
+    background-color: #ede3db;
+    border: 2px solid #623b0c;
+    border-radius: 8px;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.banner {
+  overflow: hidden;
+  position: relative;
+  max-height: 500px;
+}
+
+span {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.card-body {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  width: 100%;
+  max-width: 50em;
+  position: absolute;
+  left: 50%;
+  bottom: 1.5rem;
+  transform: translateX(-50%);
 }
