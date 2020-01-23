@@ -128,12 +128,23 @@ span {
   max-width: 100%;
 }
 
-.card-title {
-  text-decoration: underline;
-}
-
 .subheader {
-  font-family: house-script, sans-serif;
+  font-family: baskerville-urw, serif;
   font-weight: 400;
   font-style: normal;
+  margin: 0;
+}
+
+p {
+  text-indent: 28px;
+  margin: 0;
+}
+
+.serve {
+  text-indent: 0px;
+}
+
+hr {
+width: 6em;
+border: solid 3px;
 }
