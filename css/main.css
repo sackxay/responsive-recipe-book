@@ -99,7 +99,7 @@ h2 {
 }
 
 span {
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .card-body {
@@ -111,4 +111,23 @@ span {
   left: 50%;
   bottom: 1.5rem;
   transform: translateX(-50%);
+}
+
+.firstcharacter {
+  color: #71cdde;
+  float: left;
+  font-family: baskerville-urw, serif;
+  font-size: 97px;
+  line-height: 80px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+.caption {
+  background-color: rgba(0, 0, 0, .5);
+  max-width: 100%;
+}
+
+.card-title {
+  text-decoration: underline;
 }
