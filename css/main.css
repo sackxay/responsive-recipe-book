@@ -56,7 +56,7 @@ html {
 }
 
 h1 {
-  font-family: baskerville-urw, serif;
+  font-family: adelle-sans, sans-serif;
   font-weight: 700;
   font-style: normal;
   margin: 0px 0px 10px;
@@ -137,8 +137,8 @@ span {
 }
 
 p {
-  text-indent: 28px;
-  margin: 0;
+  /*text-indent: 28;*/
+  margin: 0 0 .4em 0;
 }
 
 .serve {
