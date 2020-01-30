@@ -156,7 +156,6 @@ footer {
   height: 100%;
 }
 
-button,
 .btn-cola {
   cursor: pointer;
   display: inline-block;
@@ -175,8 +174,6 @@ button,
   text-transform: none;
 }
 
-button:focus,
-button:hover,
 .btn-cola:focus,
 .btn-cola:hover {
   background-color: #333;
