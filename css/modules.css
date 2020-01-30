@@ -1053,7 +1053,7 @@ button:hover,
 .btn:focus,
 .btn:hover {
   background-color: #71cdde;
-  border-color: #fff;
+  border-color: #71cdde;
   color: #000;
 }
 
