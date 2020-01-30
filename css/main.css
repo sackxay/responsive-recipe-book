@@ -156,6 +156,7 @@ footer {
   height: 100%;
 }
 
+button,
 .btn-cola {
   cursor: pointer;
   display: inline-block;
