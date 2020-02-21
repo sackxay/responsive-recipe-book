@@ -88,7 +88,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   display: flex;
-  background-color: #efefef;
+  background-color: #71CDDE;
   border: 2px solid #623b0c;
   border-radius: 8px;
 }
@@ -169,10 +169,7 @@ footer {
   margin: 0;
   overflow: visible;
   padding: .375em .75em .42em;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-color: #71cdde;
+  background-color: #ffc0cb;
   border-radius: 4px;
   border: 3px solid #fff;
   color: #000;
@@ -183,11 +180,65 @@ footer {
 
 .btn-cola:focus,
 .btn-cola:hover {
-  background-color: #333;
-  border-color: #fff;
-  color: #fff;
+  background-color: #fff;
+  border-color: #ffc0cb;
+  color: #000;
 }
 
 .cookieback {
   background-color: #71cdde;
+}
+
+
+.btn {
+  background-color: #ffffff;
+  border-color: #ffc0cb;
+  color: #000;
+  border-radius: 8px;
+}
+
+.btn:focus,
+.btn:hover {
+  background-color: #71cdde;
+  border-color: #71cdde;
+  color: #fff;
+}
+
+.hvr-pulse {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active {
+  -webkit-animation-name: hvr-pulse;
+  animation-name: hvr-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+@keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
 }
